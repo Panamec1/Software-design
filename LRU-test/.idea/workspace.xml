@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbbd68e3-6a48-4ec0-bceb-b4bd24368419" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2G0ELqbEzQtRJhk7pHp9k4PbUKc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\LRU-test\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestForLruCache">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LRU-test" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestForLruCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LRU-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestForLruCache" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestForLruCache.test1InitialCapacityIsNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LRU-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestForLruCache" />
+      <option name="METHOD_NAME" value="test1InitialCapacityIsNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestForLruCache.test2TopKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LRU-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestForLruCache" />
+      <option name="METHOD_NAME" value="test2TopKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestForLruCache" />
+        <item itemvalue="JUnit.TestForLruCache.test2TopKey" />
+        <item itemvalue="JUnit.TestForLruCache.test1InitialCapacityIsNegative" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbbd68e3-6a48-4ec0-bceb-b4bd24368419" name="Default Changelist" comment="" />
+      <created>1665517047721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665517047721</updated>
+      <workItem from="1665517475861" duration="1040000" />
+      <workItem from="1666536904154" duration="198000" />
+      <workItem from="1666539710089" duration="3449000" />
+      <workItem from="1666554730253" duration="32000" />
+      <workItem from="1666562697072" duration="593000" />
+      <workItem from="1667309087179" duration="4568000" />
+      <workItem from="1667579197896" duration="1321000" />
+      <workItem from="1667639640213" duration="3095000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1665517594358">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1665517594358" />
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1667642651245">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1667642651245" />
+    <state x="306" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1667641865490">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="306" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1667641865490" />
+    <state width="1237" height="3" key="GridCell.Tab.0.bottom" timestamp="1667642855175">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="3" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1667642855175" />
+    <state width="1237" height="3" key="GridCell.Tab.0.center" timestamp="1667642855174">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="3" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1667642855174" />
+    <state width="1237" height="3" key="GridCell.Tab.0.left" timestamp="1667642855173">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="3" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1667642855173" />
+    <state width="1237" height="3" key="GridCell.Tab.0.right" timestamp="1667642855175">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="3" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1667642855175" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1667639654540">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1667639654540" />
+    <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1665517636741">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="376" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1665517636741" />
+    <state x="232" y="36" key="new project wizard" timestamp="1666537111338">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="232" y="36" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1666537111338" />
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1667309255814">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1667309255814" />
+    <state x="-21036" y="-10513" key="run.anything.popup" timestamp="1667316435440">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-21036" y="-10513" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1667316435440" />
+  </component>
+</project>
