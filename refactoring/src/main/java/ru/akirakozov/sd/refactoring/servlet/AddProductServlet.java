@@ -8,6 +8,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
+import ru.akirakozov.sd.refactoring.datamodule.DataBase;
+import ru.akirakozov.sd.refactoring.datamodule.ComponentsOfProd;
+
 /**
  * @author akirakozov
  */
