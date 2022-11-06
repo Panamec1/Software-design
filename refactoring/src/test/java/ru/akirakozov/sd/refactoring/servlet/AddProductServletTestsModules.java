@@ -1,10 +1,11 @@
-package akirakozov.refactoring.servlet;
+package ru.akirakozov.sd.refactoring.servlet;
 
 import        java.io.IOException;
 import        org.junit.Test;
 import        org.junit.runner.RunWith;
 import        org.mockito.Mockito;
 import        org.mockito.junit.MockitoJUnitRunner;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertThrows;
 
