@@ -11,6 +11,15 @@ public class ProdData extends DataBase<ComponentsOfProd> {
     protected String tableReturn() { return "PRODUCT";}
 
     @Override
+    protected List<String> def() {
+        return List.of(
+                "ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL",
+                "NAME TEXT NOT NULL",
+                "PRICE INT NOT NULL"
+        );
+    }
+
+    @Override
     protected List<String> fieldsReturn() { return List.of("NAME", "PRICE"); }
 
     @Override
