@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import ru.akirakozov.sd.refactoring.datamodule.ProdData;
 
 public abstract class ServletTestsModules<Serv extends HttpServlet> {
 
@@ -18,6 +19,7 @@ public abstract class ServletTestsModules<Serv extends HttpServlet> {
     @Mock
     protected HttpServletResponse response;
 
+    protected final ProdData prod = new ProdData();
     protected abstract Serv initServlet();
     protected Serv servlet;
     protected PrintWriter servWrite;

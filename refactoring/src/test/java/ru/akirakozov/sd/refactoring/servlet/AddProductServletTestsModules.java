@@ -16,7 +16,7 @@ public class AddProductServletTestsModules extends ServletTestsModules<AddProduc
     private static String paramOfPrice = "price";
 
     @Override
-    protected AddProductServlet initServlet() { return new AddProductServlet(); }
+    protected AddProductServlet initServlet() { return new AddProductServlet(prod); }
 
     @Test
     public void failOfAdding() throws IOException {
