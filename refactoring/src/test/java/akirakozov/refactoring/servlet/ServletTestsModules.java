@@ -1,4 +1,4 @@
-package ru.akirakozov.sd.refactoring.servlet;
+package akirakozov.refactoring.servlet;
 
 import org.junit.Before;
 import org.mockito.Mock;
