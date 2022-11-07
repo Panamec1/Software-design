@@ -28,9 +28,8 @@ public class AddProductServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         ComponentsOfProd product = new ComponentsOfProd(request.getParameter("name"),
                 Long.parseLong(request.getParameter("price")));
-        try {
-            prodData.inserter(product);
-        } catch (Exception e) {
+        try { prodData.inserter(product);}
+        catch (Exception e) {
             throw new RuntimeException(e);
         }
         response.setContentType("text/html");

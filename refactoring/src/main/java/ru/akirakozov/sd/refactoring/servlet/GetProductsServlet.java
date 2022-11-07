@@ -15,19 +15,16 @@ import java.util.List;
  */
 
 public class GetProductsServlet extends HttpServlet {
-
     private final ProdForm formatter = new ProdForm();
-
     private final ProdData prodData;
+
     public GetProductsServlet(ProdData prodData) {
         this.prodData = prodData;
     }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        try {
-            List<ComponentsOfProd> products = prodData.selector();
-            response.getWriter().println(formatter.formation(products));
+        try { response.getWriter().println(formatter.formation(prodData.selector()));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
