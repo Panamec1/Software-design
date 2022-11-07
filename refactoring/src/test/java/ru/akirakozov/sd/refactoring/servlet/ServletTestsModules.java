@@ -14,15 +14,19 @@ import ru.akirakozov.sd.refactoring.datamodule.ProdData;
 
 public abstract class ServletTestsModules<Serv extends HttpServlet> {
 
-    @Mock
-    protected HttpServletRequest request;
-    @Mock
-    protected HttpServletResponse response;
 
-    protected final ProdData prod = new ProdData();
     protected abstract Serv initServlet();
     protected Serv servlet;
     protected PrintWriter servWrite;
+
+    @Mock
+    protected HttpServletRequest request;
+
+    @Mock
+    protected HttpServletResponse response;
+
+    @Mock
+    protected final ProdData prod = new ProdData();
 
     static class ServWrite extends PrintWriter {
         public ServWrite() {super(new StringWriter());}
@@ -30,8 +34,6 @@ public abstract class ServletTestsModules<Serv extends HttpServlet> {
         @Override
         public String toString() {return out.toString();}
     }
-
-
 
     @Before
     public void testInit() throws IOException {

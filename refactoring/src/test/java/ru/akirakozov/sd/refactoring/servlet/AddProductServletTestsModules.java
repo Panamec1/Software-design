@@ -22,8 +22,7 @@ public class AddProductServletTestsModules extends ServletTestsModules<AddProduc
     public void failOfAdding() throws IOException {
         Mockito.when(request.getParameter(paramOfPrice)).thenReturn("fd");
         Mockito.when(request.getParameter(paramOfName)).thenReturn("name12");
-        assertThrows(NumberFormatException.class,
-                () -> servlet.doGet(request, response));
+        assertThrows(NumberFormatException.class,() -> servlet.doGet(request, response));
     }
 
     @Test
