@@ -1,4 +1,4 @@
-package events;
+package statevents;
 
 import clock.Clock;
 import org.apache.commons.lang3.Range;
@@ -6,7 +6,6 @@ import org.apache.commons.lang3.Range;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import static java.util.concurrent.TimeUnit.HOURS;
 

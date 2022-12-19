@@ -1,6 +1,6 @@
 import clock.ClockSeted;
-import events.EventStatistics;
-import events.EventsStatistic;
+import statevents.EventStatistics;
+import statevents.EventsStatistic;
 import org.junit.*;
 
 import org.junit.Test;
@@ -9,7 +9,6 @@ import static org.junit.Assert.assertTrue;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.time.Instant;
-import java.util.Collections;
 import java.util.Map;
 
 
