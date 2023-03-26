@@ -19,6 +19,7 @@ public class ItemsCatalogDao {
 
     }
 
+    // Добавление нового элемента в каталог
     public Observable<Success> addItem(String name, int value, String currencyString) {
         return itemsCollection.find(Filters.eq("name", name))
                 .toObservable()
@@ -31,6 +32,7 @@ public class ItemsCatalogDao {
                 });
     }
 
+    // Предоставления списка товаров
     public Observable<Item> getCollectionItems() {
         return itemsCollection.find()
                 .toObservable()

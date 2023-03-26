@@ -16,6 +16,7 @@ public class UserDao {
                 getCollection("users");
     }
 
+    // Регистрация пользователя
     public Observable<Success> registerUser(int id, String currencyString, String name) {
         return userCollection.find(Filters.eq("id", id))
                 .toObservable()
@@ -28,6 +29,7 @@ public class UserDao {
                 });
     }
 
+    // Предоставление по id пользователя
     public Observable<User> getUserById(int id) {
         return userCollection.find(Filters.eq("id", id))
                 .toObservable()

@@ -12,11 +12,13 @@ public class CurrencyConvertion {
     }
 
 
+    // Перевод цену в к конкретному курсу
     public int makeValueFromUni(int unifiedValue, String currentConcurrency) {
         int unifiedValueInCurrency = values.get(currentConcurrency);
         return unifiedValue / unifiedValueInCurrency;
     }
 
+    // Переводит цену в к универсальному значению
     public int makeUni(int concurrencyValue, String currentConcurrency) {
         int unifiedValueInCurrency = values.get(currentConcurrency);
         return concurrencyValue * unifiedValueInCurrency;

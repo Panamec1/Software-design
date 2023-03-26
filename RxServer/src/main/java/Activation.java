@@ -13,6 +13,8 @@ import java.util.Map;
 
 
 public class Activation {
+
+    // Создание тестовых курсов
     static Map<String, Integer> currencyMap(){
         Map<String, Integer> currencyMap = new HashMap<>();
         currencyMap.put("EUROS", 94);

@@ -19,6 +19,11 @@ public class ServerRx {
         this.catalogDao = catalogDao;
     }
 
+    // Получение ответа после чего происходит
+    // либо регистрация пользователя
+    // либо выводятся пользователи
+    // либо добавляется новый элемент
+    // либо выводится общий список команд
     public Observable<String> getResponse(HttpServerRequest<ByteBuf> req) {
         String path = req.getDecodedPath().substring(1);
         switch (path) {
@@ -76,6 +81,7 @@ public class ServerRx {
                 "Parameters: id\n"
         );
     }
+
 
     private Optional<String> checkParams(HttpServerRequest<ByteBuf> req, List<String> parameters) {
         String err = parameters.stream().
